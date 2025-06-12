@@ -28,7 +28,7 @@ _A static HTML, CSS, and JavaScript-based website showcasing a catalog of BMX bi
 
 **BMX Product Catalog**, developed by Adrian Lesniak (Student ID: 154256), is a static website built using HTML, CSS, and JavaScript. It is designed to showcase a range of BMX bicycles. The site features an engaging hero section with a background image and introductory text, a dynamic product listing displaying BMX bikes with their images and prices, and a top navigation bar. All content is presented in English.
 
-![Demo GIF](screenshots/1.gif)
+![Demo GIF](screenshots/optimized-1.gif)
 
 ---
 
@@ -81,7 +81,6 @@ _Screenshots of: the website's hero section, the product listing, the navigation
   <img src="screenshots\8.jpg" width="300"/>
   <img src="screenshots\9.jpg" width="300"/>
 </p>
-
 
 ---
 
