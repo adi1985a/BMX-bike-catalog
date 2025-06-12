@@ -1,38 +1,56 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMX Product Catalog - Login</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>BMX Katalog produktow - logowanie</title>
-	<script src="main.js"></script>
+    <script defer src="main.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>BMX Katalog produktow - logowanie</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Strona glowna</a></li>
-            </ul>
-        </nav>
+    <header class="main-header" role="banner">
+        <div class="container header-flex">
+            <h1 tabindex="0">BMX Product Catalog</h1>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html"><i class="fa fa-home"></i><span>home</span></a></li>
+                    <li><a href="products.html"><i class="fa fa-bicycle"></i><span>products</span></a></li>
+                    <li><a href="addProduct.html"><i class="fa fa-plus"></i><span>add product</span></a></li>
+                    <li><a href="editProduct.html"><i class="fa fa-edit"></i><span>edit product</span></a></li>
+                    <li><a href="login.html" aria-current="page"><i class="fa fa-user"></i><span>log in</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="login">
-        <h2>Login</h2>
-        
-        <form>
-            <label for="username">Uzytkownik:</label>
-            <input type="text" id="username" name="username" required>
+    <main>
+        <section id="login">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit" class="btn btn-primary"><i class="fa fa-sign-in-alt"></i> Log in</button>
+            </form>
+        </section>
+    </main>
 
-            <label for="password">Haslo:</label>
-            <input type="password" id="password" name="password" required>
-
-            <button type="submit">Zaloguj</button>
-        </form>
-    </section>
-
-  
+    <footer id="footer" role="contentinfo">
+        <div class="container">
+            <p>Adrian Lesniak student ID: 154256 &copy; <span id="year"></span></p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
+
 </html>
