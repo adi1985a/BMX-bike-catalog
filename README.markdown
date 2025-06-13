@@ -1,4 +1,4 @@
-# 🚲💨 BMX Product Catalog 🇬🇧  
+# 🚲💨 BMX Product Catalog 
 _A static HTML, CSS, and JavaScript-based website showcasing a catalog of BMX bikes, featuring a hero section, product listings, and navigation._
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
